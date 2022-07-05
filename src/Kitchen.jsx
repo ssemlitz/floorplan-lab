@@ -3,11 +3,13 @@ import Sink from "./Sink";
 
 function Kitchen(props) {
   return (
-    <div className="kitchen">
-      Kitchen
+    <container className="kitchen">
+      <span className="kitchen-text">
+        Kitchen
+      </span>
       <Oven />
       <Sink />
-    </div>
+    </container>
   )
 }
 
