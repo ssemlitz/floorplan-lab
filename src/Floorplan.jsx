@@ -6,7 +6,7 @@ import Bath from "./Bath";
 
 function FloorPlan() {
   return (
-    <div className="floorPlan">
+    <div className="floorPlan" id="floorPlan">
       <Bedroom bedNum={1}/>
       <Kitchen />
       <Bath size='Full'/>
